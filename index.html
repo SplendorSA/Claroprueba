@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Claro QR Prueba</title>
+  <meta charset="utf-8">
+    <meta content="initial-scale=1, shrink-to-fit=no, width=device-width" name="viewport">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i|Roboto+Mono:300,400,700|Roboto+Slab:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Add Material CSS, replace Bootstrap CSS -->
+    <link href="assets/css/material.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  
+  <!-- <button id="find-me">Aceptas Tratamiento de datos </button><br/> -->
+  <div class="col-md-5" style="display: none;">
+    <p id="status"></p>
+    <a id="map-link" target="_blank"></a>
+    <a id="latitude" target="_blank"></a>
+    <a id="longitude" target="_blank"></a>
+    <form id="my-google-sheet" >
+      <div class="form-group">
+        <label for="Latitud">Latitud</label>
+        <input id="latitudes" type="latitude" name="Latitud" class="form-control" required>
+        <small id="emailHelp" class="form-text text-muted">Campo obligatorio.</small>
+      </div>
+      <div class="form-group">
+        <label for="Longitud">Longitud</label>
+        <input id="longitudes" type="longitude" name="Longitud" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="Dirrección ">Dirrección </label>
+        <input type="number" name="Dirrección " class="form-control" required>
+      </div>
+    </form>
+  </div>
+  
+  <!-- <div class="form-group mb-5 text-center mt-5">
+    <button onclick="SendFormGoogleSheets()" class="btn btn-primary btn-sm">Identificar Coordenada</button>
+  </div> -->
+<div class="col-md-5">
+    <img src="assets/imgs/Google-Sheets-1.png" alt="" class="img-fluid">
+</div>
+</div>
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="assets/js/material.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
+<!-- <script src="script.js"></script> -->
+<script src="tercerscript.js"></script>
+
+ 
+</body>
+</html>
